@@ -1,0 +1,49 @@
+.btn {
+    display: inline-block;
+    padding: calc(var(--nobs-space-base) / 2 * 3) calc(var(--nobs-space-base) * 3);
+    border: 0;
+    line-height: 1.5;
+}
+.btn:hover {
+    background-color: var(--nobs-btn-hover-bg-color);
+}
+.btn:active {
+    background-color: var(--nobs-btn-active-bg-color);
+}
+
+.btn-main {
+    --nobs-btn-hover-bg-color: rgb(50, 0, 129);
+    --nobs-btn-active-bg-color: rgb(39, 0, 102);
+    color: white;
+    background-color: rgb(60, 4, 150);
+}
+.btn-minor {
+    --nobs-btn-hover-bg-color: rgb(37, 37, 37);
+    --nobs-btn-active-bg-color: rgb(44, 44, 44);
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+.btn-go {
+    --nobs-btn-hover-bg-color: rgb(0, 139, 35);
+    --nobs-btn-active-bg-color: rgb(0, 129, 32);
+    color: white;
+    background-color: rgb(0, 165, 41);
+}
+.btn-risk {
+    --nobs-btn-hover-bg-color: rgb(187, 0, 0);
+    --nobs-btn-active-bg-color: rgb(145, 0, 0);
+    color: white;
+    background-color: rgb(223, 0, 0);
+}
+.btn-caution {
+    --nobs-btn-hover-bg-color: rgb(187, 153, 0);
+    --nobs-btn-active-bg-color: rgb(156, 128, 0);
+    color: black;
+    background-color: rgb(216, 176, 0);
+}
+.btn-info {
+    --nobs-btn-hover-bg-color: rgb(15, 159, 226);
+    --nobs-btn-active-bg-color: rgb(1, 129, 189);
+    color: black;
+    background-color: rgb(31, 176, 243);
+}
