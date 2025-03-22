@@ -3,6 +3,7 @@
     padding: calc(var(--nobs-space-base) / 2 * 3) calc(var(--nobs-space-base) * 3);
     border: 0;
     line-height: 1.5;
+    outline-offset: 2px;
 }
 .btn:hover {
     background-color: var(--nobs-btn-hover-bg-color);
