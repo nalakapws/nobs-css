@@ -13,6 +13,10 @@
 .btn:active {
     background-color: var(--nobs-btn-active-bg-color);
 }
+.btn:disabled {
+    pointer-events: none;
+    opacity: .5;
+}
 
 .btn-main {
     --nobs-btn-hover-bg-color: rgb(50, 0, 129);
