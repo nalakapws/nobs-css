@@ -2,20 +2,20 @@
     border-radius: 0;
 }
 
-.rack-h > *:first-child {
+.rack-h > *:first-child:not(:only-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-.rack-h > *:last-child {
+.rack-h > *:last-child:not(:only-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.rack-v > *:first-child {
+.rack-v > *:first-child:not(:only-child) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-.rack-v > *:last-child {
+.rack-v > *:last-child:not(:only-child) {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }

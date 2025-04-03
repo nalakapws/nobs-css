@@ -5,7 +5,7 @@
     line-height: 1.5;
     text-align: center;
     outline-offset: 2px;
-    border-radius: 0.375rem;
+    border-radius: var(--nobs-border-radius-base)
 }
 .btn:hover {
     background-color: var(--nobs-btn-hover-bg-color);
