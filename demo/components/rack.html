@@ -33,15 +33,6 @@
         <button class="btn btn-risk">Risk</button>
     </div>
 
-    <h3>Wrapping childs</h3>
-
-    <div class="rack rack-h" style="display: inline-flex; flex-direction: row; flex-wrap: wrap;">
-        <button class="btn btn-main">Main</button>
-        <button class="btn btn-minor">Minor</button>
-        <button class="btn btn-go">⌚ Go</button>
-        <button class="btn btn-risk">Risk</button>
-    </div>
-
     <hr>
 
     <h2>Vertical racks</h2>
@@ -63,6 +54,55 @@
         <button class="btn btn-go">⌚ Go</button>
         <button class="btn btn-risk">Risk</button>
     </div>
+
+    <hr>
+
+    <h3>Wrapping childs</h3>
+
+    <div class="rack rack-h" style="display: inline-flex; flex-direction: row; flex-wrap: wrap;">
+        <button class="btn btn-main">Main</button>
+        <button class="btn btn-minor">Minor</button>
+        <button class="btn btn-go">⌚ Go</button>
+        <button class="btn btn-risk">Risk</button>
+    </div>
+
+    <hr>
+
+    <h3>Multiple racks at once - Horizontal</h3>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+        <div class="rack rack-h" style="display: inline-flex;">
+            <button class="btn btn-main">Main</button>
+            <button class="btn btn-minor">Minor</button>
+            <button class="btn btn-go">⌚ Go</button>
+            <button class="btn btn-risk">Risk</button>
+        </div>
+        <div class="rack rack-h" style="display: inline-flex;">
+            <button class="btn btn-main">Main</button>
+            <button class="btn btn-go">⌚ Go</button>
+        </div>
+        <button class="btn btn-risk">Risk</button>
+    </div>
+
+    <h3>Multiple racks at once - Vertical</h3>
+
+    <div style="display: inline-flex; gap: 1rem; flex-direction: column;">
+        <div class="rack rack-v" style="display: inline-flex; flex-direction: column;">
+            <button class="btn btn-main">Main</button>
+            <button class="btn btn-minor">Minor</button>
+            <button class="btn btn-go">⌚ Go</button>
+            <button class="btn btn-risk">Risk</button>
+        </div>
+        <div class="rack rack-v" style="display: inline-flex; flex-direction: column;">
+            <button class="btn btn-main">Main</button>
+            <button class="btn btn-go">⌚ Go</button>
+        </div>
+        <button class="btn btn-risk">Risk</button>
+    </div>
+
+
+
+    
 
 </body>
 </html>
