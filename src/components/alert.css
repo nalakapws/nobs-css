@@ -5,36 +5,44 @@
 
 .alert-main {
     --nobs-alert-link-color: rgb(197 161 255);
+    --nobs-alert-link-hover-color: rgb(217, 194, 255);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-main);
 }
 .alert-minor {
     --nobs-alert-link-color: rgb(181 181 181);
+    --nobs-alert-link-hover-color: rgb(212, 212, 212);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-minor);
 }
 .alert-go {
     --nobs-alert-link-color: rgb(206 255 218);
+    --nobs-alert-link-hover-color: rgb(56, 253, 109);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-go);
 }
 .alert-risk {
     --nobs-alert-link-color: rgb(93 0 0);
+    --nobs-alert-link-hover-color: rgb(145, 0, 0);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-risk);
 }
 .alert-caution {
     --nobs-alert-link-color: rgb(92 75 0);
+    --nobs-alert-link-hover-color: rgb(156, 128, 0);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-caution);
 }
 .alert-info {
     --nobs-alert-link-color: rgb(6 80 114);
+    --nobs-alert-link-hover-color: rgb(0, 117, 172);
     color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-info);
 }
 
 .alert > a {
-    font-weight: 500;
     color: var(--nobs-alert-link-color);
+}
+.alert > a:hover {
+    color: var(--nobs-alert-link-hover-color);
 }

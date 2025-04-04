@@ -2,6 +2,8 @@
 @import './third-party/normalize.css';
 
 @import './base/standardize.css';
+@import './base/body.css';
+@import './base/link.css';
 
 @import './variables/colors.css';
 @import './variables/sizes.css';
