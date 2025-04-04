@@ -1,0 +1,28 @@
+.alert {
+    padding: var(--nobs-space-2);
+}
+
+.alert-main {
+    color: rgb(197 161 255);
+    background-color: var(--nobs-bg-main);
+}
+.alert-minor {
+    color: rgb(181 181 181);
+    background-color: var(--nobs-bg-minor);
+}
+.alert-go {
+    color: rgb(206 255 218);
+    background-color: var(--nobs-bg-go);
+}
+.alert-risk {
+    color: rgb(93 0 0);
+    background-color: var(--nobs-bg-risk);
+}
+.alert-caution {
+    color: rgb(92 75 0);
+    background-color: var(--nobs-bg-caution);
+}
+.alert-info {
+    color: rgb(6 80 114);
+    background-color: var(--nobs-bg-info);
+}

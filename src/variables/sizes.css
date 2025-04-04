@@ -1,5 +1,7 @@
 :root {
     --nobs-space-base: .25rem;
+    --nobs-space-1: .5rem;
+    --nobs-space-2: 1rem;
 
     --nobs-border-radius-base: 0.375rem;
 }

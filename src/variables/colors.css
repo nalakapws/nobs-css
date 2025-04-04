@@ -1,0 +1,8 @@
+:root {
+    --nobs-bg-main: rgb(60, 4, 150);
+    --nobs-bg-minor: rgb(51, 51, 51);
+    --nobs-bg-go: rgb(0, 165, 41);
+    --nobs-bg-risk: rgb(223, 0, 0);
+    --nobs-bg-caution: rgb(216, 176, 0);
+    --nobs-bg-info: rgb(31, 176, 243);
+}

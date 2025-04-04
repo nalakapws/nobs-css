@@ -3,8 +3,9 @@
 
 @import './base/standardize.css';
 
+@import './variables/colors.css';
 @import './variables/sizes.css';
 
 @import './components/rack.css';
-
 @import './components/button.css';
+@import './components/alert.css';
