@@ -1,28 +1,40 @@
 .alert {
+    border-radius: var(--nobs-border-radius-base);
     padding: var(--nobs-space-2);
 }
 
 .alert-main {
-    color: rgb(197 161 255);
+    --nobs-alert-link-color: rgb(197 161 255);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-main);
 }
 .alert-minor {
-    color: rgb(181 181 181);
+    --nobs-alert-link-color: rgb(181 181 181);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-minor);
 }
 .alert-go {
-    color: rgb(206 255 218);
+    --nobs-alert-link-color: rgb(206 255 218);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-go);
 }
 .alert-risk {
-    color: rgb(93 0 0);
+    --nobs-alert-link-color: rgb(93 0 0);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-risk);
 }
 .alert-caution {
-    color: rgb(92 75 0);
+    --nobs-alert-link-color: rgb(92 75 0);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-caution);
 }
 .alert-info {
-    color: rgb(6 80 114);
+    --nobs-alert-link-color: rgb(6 80 114);
+    color: var(--nobs-alert-link-color);
     background-color: var(--nobs-bg-info);
+}
+
+.alert > a {
+    font-weight: 500;
+    color: var(--nobs-alert-link-color);
 }
