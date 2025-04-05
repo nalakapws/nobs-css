@@ -7,6 +7,7 @@
 @import './base/horizontal-rule.css';
 @import './base/inline-code.css';
 @import './base/image.css';
+@import './base/figure.css';
 
 @import './variables/colors.css';
 @import './variables/sizes.css';

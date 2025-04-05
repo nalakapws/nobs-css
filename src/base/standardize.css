@@ -6,3 +6,7 @@
     outline: 2px solid white;
     outline-offset: 0;
 }
+
+img, svg {
+    vertical-align: middle;
+}
