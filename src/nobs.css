@@ -5,6 +5,7 @@
 @import './base/body.css';
 @import './base/link.css';
 @import './base/horizontal-rule.css';
+@import './base/inline-code.css';
 
 @import './variables/colors.css';
 @import './variables/sizes.css';
