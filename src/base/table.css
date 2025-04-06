@@ -1,0 +1,10 @@
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table > :not(caption) > * > * {
+    padding: var(--nobs-space-1);
+    border: 1px solid white;
+}

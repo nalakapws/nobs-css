@@ -1,6 +1,9 @@
 /* Order is important. */
 @import './third-party/normalize.css';
 
+@import './variables/colors.css';
+@import './variables/sizes.css';
+
 @import './base/standardize.css';
 @import './base/body.css';
 @import './base/link.css';
@@ -8,9 +11,7 @@
 @import './base/inline-code.css';
 @import './base/image.css';
 @import './base/figure.css';
-
-@import './variables/colors.css';
-@import './variables/sizes.css';
+@import './base/table.css';
 
 @import './components/rack.css';
 @import './components/button.css';
