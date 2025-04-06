@@ -8,3 +8,7 @@ table > :not(caption) > * > * {
     padding: var(--nobs-space-1);
     border: 1px solid white;
 }
+
+th {
+    text-align: inherit;
+}

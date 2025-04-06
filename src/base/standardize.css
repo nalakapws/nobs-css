@@ -12,8 +12,7 @@ img, svg {
 }
 
 caption {
-    padding-top: var(--nobs-space-1);
-    padding-bottom: var(--nobs-space-1);
+    padding: var(--nobs-space-1) 0;
     color: gray;
     text-align: left;
 }
