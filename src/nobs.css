@@ -9,8 +9,8 @@
 @import './base/link.css';
 @import './base/horizontal-rule.css';
 @import './base/inline-code.css';
-@import './base/image.css';
 @import './base/figure.css';
+@import './base/image.css';
 @import './base/table.css';
 
 @import './components/rack.css';
