@@ -1,2 +1,2 @@
 # nobs-css
-nobs css
+nobs css framework.
